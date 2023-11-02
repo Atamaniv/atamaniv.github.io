@@ -112,3 +112,8 @@ ul.menu li {
 	letter-spacing: 0.05em;
 	opacity: 50%;
 }
+
+.block-container2, 
+.block-container2 img { width: 700px; height: 350px; }
+.block-container2 img { position: absolute; }
+.block-container2 img {z-index: 1000;}
