@@ -117,3 +117,8 @@ ul.menu li {
 .block-container2 img { width: 1000px; height: 700px; }
 .block-container2 img { position: absolute; }
 .block-container2 img {z-index: 1000;}
+
+.block-container3, 
+.block-container3 img { width: 640px; height: 832px; }
+.block-container3 img { position: absolute; }
+.block-container3 img {z-index: 640;}
