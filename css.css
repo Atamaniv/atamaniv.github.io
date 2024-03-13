@@ -87,11 +87,9 @@ ul.menu li {
 	letter-spacing: 0.05em;
             }
 
-
 .line {
 	margin-top: 40px;
 }
-
 
 .social {
 	margin-top: 20px;
@@ -104,7 +102,6 @@ ul.menu li {
 .fh {
 	margin-top: 10px;
 }
-
 
 .copy {
 	margin: 10px;
@@ -127,3 +124,63 @@ ul.menu li {
 .block-container4 img { width: 622px; height: 350px; border: 1px solid white;background:#c2cbd1;}
 .block-container4 img { position: absolute; }
 .block-container4 img { z-index: 455;}
+
+.circle{
+	width: 40px;
+	height: 40px;
+	background: linear-gradient(#36AEE0,#1C96D1);
+	border-radius: 50%;
+	margin: 3em auto;
+	position: relative;
+  }
+  
+  .plane {
+	position: absolute;
+	width: calc(40px / 1.8);
+	height: calc(40px / 2);
+	left: 58%;
+	top: 45%;
+	transform: translate(-50%,-50%) rotate(30deg) skewX(-18deg) skewY(-6deg);
+  }
+  
+  .wing {
+	height: 100%;
+	width: 50%;
+	background: white;
+	border-radius: .5em 0 0 .5em;
+	position: absolute;
+	transform: skewY(var(-10deg));
+	clip-path: polygon(0 100%, 0 95%, 95% 2%, 98% 0, 150% 0, 150% 150%);
+  }
+  
+  .right {
+	left: 50.5%;
+	transform: skewY(calc(-10deg)) rotateY(180deg) scaleX(1.05);
+  }
+  
+  .left {
+	&:before,
+	&:after {
+	  content: "";
+	  position: absolute;
+	  border-radius: .8em .5em .5em .15em;
+	}
+	
+	&:before{
+	  width: 44%;
+	  height: 65%;
+	  background: #CDE1EE;
+	  top: 48%;
+	  left: 89%;
+	  transform: skewY(35deg) rotate(8deg);
+	}
+	
+	&:after {
+	  background: #afc5db;
+	  width: 26%;
+	  height: 25%;
+	  top: 87%;
+	  left: 101.5%;
+	  transform: skewY(50deg) rotate(8deg);
+	}
+  }
