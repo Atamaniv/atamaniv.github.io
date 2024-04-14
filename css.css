@@ -116,6 +116,11 @@ ul.menu li {
 .block-container2 img {z-index: 1000;}
 
 .block-container3, 
+.block-container3 img { width: 1280px; height: 1280px; }
+.block-container3 img { position: absolute; }
+.block-container3 img {z-index: 1000;}
+
+.block-container3, 
 .block-container3 img { width: 350px; height: 455px; border: 1px solid white;}
 .block-container3 img { position: absolute; }
 .block-container3 img { z-index: 455;}
