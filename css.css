@@ -57,8 +57,6 @@ ul.menu li {
 	text-align: center;
 	font-weight: 400;
 	font-family: 'Oswald', sans-serif;
-	/*font-size: 15px;*/
-	font-size:calc(1em + 4vw);
 	letter-spacing: 0.05em;
 }
 .block-container {
@@ -188,5 +186,16 @@ ul.menu li {
 	  top: 87%;
 	  left: 101.5%;
 	  transform: skewY(50deg) rotate(8deg);
+	}
+  }
+
+  @media (min-width: 480px) and (max-width: 1024px) {
+	menu {
+		font-size:calc(1em + 2vw);
+	}
+  }
+  @media (min-width: 1024px) and (max-width: 2048px) {
+	menu {
+		font-size:calc(1em + 0.5vw);
 	}
   }
