@@ -125,7 +125,7 @@ ul.menu li {
 .block-container4 img { z-index: 455;}
 
 .block-container5, 
-.block-container5 img { width: 640px; height: 640px; }
+.block-container5 img { width: 640px; height: 640px; margin: 1px;}
 .block-container5 img { position: absolute; }
 .block-container5 img {z-index: 1000;}
 
