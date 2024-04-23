@@ -125,9 +125,8 @@ ul.menu li {
 .block-container4 img { z-index: 455;}
 
 .block-container5, 
-.block-container5 img { width: 640px; height: 640px; margin: 1px;}
-.block-container5 img { position: absolute; }
-.block-container5 img {z-index: 1000;}
+.block-container5 img { position: absolute; z-index: 1000;}
+
 
 .circle{
 	width: 40px;
@@ -191,11 +190,11 @@ ul.menu li {
 
   @media (min-width: 480px) and (max-width: 1024px) {
 	menu {
-		font-size:calc(3em + 2vw);
+		font-size:0.2em;
 	}
   }
   @media (min-width: 1025px) and (max-width: 2048px) {
 	menu {
-		font-size:calc(2em + 2.5vw);
+		font-size:2em;
 	}
   }
