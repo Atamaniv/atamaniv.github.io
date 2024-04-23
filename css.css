@@ -110,14 +110,22 @@ ul.menu li {
 }
 
 .block-container2, 
-.block-container2 img { width: 1000px; height: 700px; position: absolute; z-index: 1000;}
+.block-container2 img { width: 1000px; height: 700px; }
+.block-container2 img { position: absolute; }
+.block-container2 img {z-index: 1000;}
 
 .block-container3, 
-.block-container3 img { width: 350px; height: 455px; border: 1px solid white; position: absolute; z-index: 455;}
+.block-container3 img { width: 350px; height: 455px; border: 1px solid white;}
+.block-container3 img { position: absolute; }
+.block-container3 img { z-index: 455;}
 
 .block-container4, 
-.block-container4 img { width: 622px; height: 350px; border: 1px solid white;background:#c2cbd1;z-index: 455;position: absolute;}
+.block-container4 img { width: 622px; height: 350px; border: 1px solid white;background:#c2cbd1;}
+.block-container4 img { position: absolute; }
+.block-container4 img { z-index: 455;}
 
+.block-container5, 
+.block-container5 img { position: absolute; z-index: 1000;}
 
 
 .circle{
@@ -182,11 +190,11 @@ ul.menu li {
 
   @media (min-width: 480px) and (max-width: 1024px) {
 	menu {
-		font-size:2em;
+		font-size:0.2em;
 	}
   }
   @media (min-width: 1025px) and (max-width: 2048px) {
 	menu {
-		font: size 2.5em;;
+		font-size:2em;
 	}
   }
